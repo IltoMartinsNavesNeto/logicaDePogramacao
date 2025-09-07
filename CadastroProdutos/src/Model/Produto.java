@@ -68,4 +68,9 @@ public class Produto {
                 ", unidadeMedida='" + unidadeMedida + '\'' +
                 '}';
     }
+
+
+    public  void cadastrarProduto(int id, String nome, double preco, String ncm, String unidadeMedida) {
+        Produto produto = new Produto(id, nome, preco, ncm, unidadeMedida);
+    }
 }
